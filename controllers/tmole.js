@@ -1,7 +1,5 @@
 
 import * as db from "./dbcontroller.js"
-import { tunnelmole } from "bc-hosteddomain-tunnelmole";
-import * as itask from 'interruptible-tasks'
 import { spawn, spawnSync } from "node:child_process"
 
 let portTastkMap = new Map()
